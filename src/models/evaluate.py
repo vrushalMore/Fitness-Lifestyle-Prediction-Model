@@ -21,7 +21,7 @@ recall = recall_score(y_test, y_pred)
 report = classification_report(y_test, y_pred)
 print("Model Evaluation Report:\n", report)
 
-report_path = "../../reports/model_performance.md"
+report_path = "../../results/model_performance.md"
 with open(report_path, "w") as f:
     f.write("# Model Evaluation Report\n")
     f.write(f"Accuracy: {accuracy:.4f}\n")
