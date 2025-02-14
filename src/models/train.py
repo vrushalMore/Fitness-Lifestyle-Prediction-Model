@@ -57,5 +57,3 @@ if __name__ == "__main__":
     best_model.fit(X, y)
     
     save_model(best_model, model_output_path)
-    
-    print("Model training complete.")

@@ -13,3 +13,9 @@ Recall: 0.9849
     accuracy                           0.99      1200
    macro avg       1.00      0.99      0.99      1200
 weighted avg       0.99      0.99      0.99      1200
+
+
+# Training Accuracy
+
+Model Accuracy: 0.9217
+

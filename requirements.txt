@@ -1,1 +1,6 @@
-# List of required Python packages
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+

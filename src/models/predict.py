@@ -30,5 +30,3 @@ with open(report_path, "w") as f:
     f.write(f"Recall: {recall:.4f}\n")
     f.write("\n\n")
     f.write(report)
-
-print("Evaluation complete. Results saved in model_performance.md")

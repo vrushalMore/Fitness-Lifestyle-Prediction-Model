@@ -37,5 +37,3 @@ if __name__ == "__main__":
     df = load_data(raw_data_path)
     processed_df, scaler, encoder = preprocess_data(df)
     save_preprocessed_data(processed_df, processed_data_path)
-    
-    print("Preprocessing complete. Processed data saved.")

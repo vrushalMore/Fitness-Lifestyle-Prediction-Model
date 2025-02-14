@@ -25,5 +25,3 @@ if __name__ == "__main__":
     df = load_preprocessed_data(preprocessed_data_path)
     train_df, test_df = split_data(df)
     save_split_data(train_df, test_df, train_data_path, test_data_path)
-    
-    print("Data splitting complete.")
